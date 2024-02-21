@@ -57,6 +57,7 @@ const TodoList = () => {
             type='text'
             value={inputValue}
             onChange={handleInputChange}
+            onKeyPress={handleKeyPress}
             placeholder='Enter your todo...'
           />
         </div>
